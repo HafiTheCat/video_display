@@ -1,0 +1,13 @@
+[package]
+name = "video_display"
+authors = ["HafiTheCat <https://github.com/HafiTheCat>"]
+version = "0.1.0"
+edition = "2021"
+description = "Plays a video in the terminal"
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ffmpeg-sidecar = "0.4.1"
+image = { version = "0.24.7", features = ["mp4parse"] }
+viuer = { version = "0.6.2" }
